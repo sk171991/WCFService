@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="2333304fc5304a779f15e412ddcba711" Name="Diagram1">
+        <EntityTypeShape EntityType="MVC201Model.Account" Width="1.5" PointX="3" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MVC201Model.RelationShip" Width="1.5" PointX="5.25" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MVC201Model.Role" Width="1.5" PointX="0.75" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MVC201Model.sysdiagram" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="MVC201Model.FK_Account_Roles" ManuallyRouted="false" />
+        <AssociationConnector Association="MVC201Model.FK_RelationShip_Account" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="MVC201Model.AddMember" Width="1.5" PointX="0.75" PointY="7.75" />
+        <AssociationConnector Association="MVC201Model.FK_RelationShip_AddMember" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
